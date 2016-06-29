@@ -5,4 +5,6 @@ jobs:
       - GET: sample-script
       - GET: nginx-image
       - TASK:
+        - script: pwd
+        - script: ls
         - script: ./GET/sample-script/sample-script/echo.sh
