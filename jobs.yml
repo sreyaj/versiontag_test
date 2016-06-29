@@ -3,5 +3,5 @@ jobs:
     type: runSh
     steps:
       - GET: sample-script
-      - TASKS:
+      - TASK:
         - script: ls
