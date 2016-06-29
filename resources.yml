@@ -12,3 +12,9 @@ resources:
       name: "library/nginx"
       isPull: false
       tag: latest
+  - name: env-aws
+    type: ecsCluster
+    integration: aws
+    source:
+      name : "prod-aws"
+      region: "us-east-1"
