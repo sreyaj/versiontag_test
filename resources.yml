@@ -5,3 +5,6 @@ resources:
     source:
       name: shrivara/sample-script
       branch: master
+  - name: aws-env
+    type: ecsCluster
+    integration: aws
