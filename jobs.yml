@@ -1,0 +1,7 @@
+jobs:
+  - name: script-001
+    type: runSh
+    steps:
+      - GET: sample-script
+      - TASKS:
+        - script: ls

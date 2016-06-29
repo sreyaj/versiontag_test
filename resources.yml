@@ -1,0 +1,8 @@
+resources:
+  - name: sample-script
+    type: gitRepo
+    integration: github
+    source:
+      name: shrivara/sample-script
+      branch: master
+
