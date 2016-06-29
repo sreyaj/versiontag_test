@@ -5,6 +5,10 @@ resources:
     source:
       name: shrivara/sample-script
       branch: master
-  - name: aws-env
-    type: ecsCluster
-    integration: aws
+  - name: nginx-image
+    type: image
+    integration: docker
+    source:
+      name: "library/nginx"
+      isPull: false
+      tag: latest
