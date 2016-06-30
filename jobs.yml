@@ -3,6 +3,7 @@ jobs:
     type: runSh
     steps:
       - GET: sample-script
+      - GET: nginx-image
       - TASK:
         - script: pwd
         - script: ls
