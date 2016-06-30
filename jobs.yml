@@ -3,7 +3,6 @@ jobs:
     type: runSh
     steps:
       - GET: sample-script
-      - GET: env-aws 
       - TASK:
         - script: pwd
         - script: ls
