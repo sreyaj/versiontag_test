@@ -1,5 +1,5 @@
 jobs:
-  - name: script-121
+  - name: script-123
     type: runSh
     steps:
       - GET: sample-script
@@ -8,7 +8,7 @@ jobs:
         - script: ls
         - script: ps
         - script: ./GET/sample-script/sample-script/echo.sh
-  - name: script-122
+  - name: script-124
     type: manifestSteps
     steps:
       - GET: sample-script
