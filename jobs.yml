@@ -1,10 +1,10 @@
 jobs:
-  - name: script-125
+  - name: script-126
     type: runSh
     steps:
       - GET: sample-script
       - TASK:
         - script: pwd
-        - script: ls
+        - script: ps
         - script: ps
         - script: ./GET/sample-script/sample-script/echo.sh
