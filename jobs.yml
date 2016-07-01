@@ -1,9 +1,9 @@
 jobs:
   - name: script-102
     type: runSh
+    serial: true
     steps:
       - GET: sample-script
-      - GET: nginx-image
       - TASK:
         - script: pwd
         - script: ls
