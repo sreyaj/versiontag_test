@@ -1,6 +1,7 @@
 jobs:
   - name: script-newtest23
     type: runSh
+    serial: true
     steps:
       - GET: sample-script1
       - TASK:
