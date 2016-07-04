@@ -13,3 +13,11 @@ resources:
       name: "shiphitchcock4/hitchcock4_sample_node"
       isPull: false
       tag: latest
+      
+  - name: newgitres
+    type: image
+    integration: ship4-docker
+    source:
+      name: "shiphitchcock4/hitchcock4_sample_nodenew"
+      isPull: false
+      tag: latest
