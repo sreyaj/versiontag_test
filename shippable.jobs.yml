@@ -1,5 +1,5 @@
 jobs:
-  - name: script-newtest2
+  - name: script-newtest23
     type: runSh
     steps:
       - GET: sample-script1
