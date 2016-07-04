@@ -1,13 +1,14 @@
 resources:
-  - name: sample-script
+  - name: sample-script1
     type: gitRepo
     integration: github
     source:
-      name: shrivara/sample-script
+      name: shiphitchcock4/sample-script
       branch: master
-  - name: nginx-image
+      
+  - name: nginx-image1
     type: image
-    integration: docker
+    integration: ship4-docker
     source:
       name: "library/nginx"
       isPull: false
