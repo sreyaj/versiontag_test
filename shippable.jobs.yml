@@ -4,6 +4,6 @@ jobs:
     steps:
       - GET: sample-script
       - TASK:
-        - script: pps
+        - script: ps
         - script: ls
         - script: ./GET/sample-script/sample-script/echo.sh
