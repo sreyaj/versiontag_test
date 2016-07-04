@@ -4,7 +4,7 @@ jobs:
     steps:
       - GET: sample-script1
       - TASK:
-        - script: ps
+        - script: pwd
         - script: ls
         - script: ./GET/sample-script1/sample-script1/echo.sh
  
