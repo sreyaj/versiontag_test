@@ -1,5 +1,5 @@
 jobs:
-  - name: script-0x008
+  - name: script-0x009
     type: runSh
     serial: true
     steps:
