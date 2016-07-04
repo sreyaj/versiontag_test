@@ -1,5 +1,5 @@
 jobs:
-  - name: script-0x013
+  - name: script-newtest1
     type: runSh
     steps:
       - GET: sample-script
