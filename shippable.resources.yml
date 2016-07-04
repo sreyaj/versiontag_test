@@ -1,5 +1,5 @@
 resources:
-  - name: sample-script1
+  - name: sample-script
     type: gitRepo
     integration: github
     source:
@@ -10,6 +10,6 @@ resources:
     type: image
     integration: ship4-docker
     source:
-      name: "library/nginx"
+      name: "shiphitchcock4/hitchcock4_sample_node"
       isPull: false
       tag: latest
