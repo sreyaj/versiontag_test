@@ -5,4 +5,5 @@ jobs:
       - GET: sample-script
       - TASK:
         - script: ps
+        - script: ls
         - script: ./GET/sample-script/sample-script/echo.sh
