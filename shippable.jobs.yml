@@ -1,5 +1,5 @@
 jobs:
-  - name: script-newtestnode1
+  - name: script-newtestnode123
     type: runSh
     serial: true
     steps:
@@ -9,7 +9,3 @@ jobs:
         - script: ls
         - script: ./GET/sample-script1/sample-script1/echo.sh
  
-  - name: gittestnode1
-    type: manifest
-    steps:
-      - GET: newgitres
