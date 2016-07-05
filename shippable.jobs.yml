@@ -1,5 +1,5 @@
 jobs:
-  - name: script-newtestnode123test
+  - name: script-newtestnode123test2
     type: runSh
     serial: true
     steps:
