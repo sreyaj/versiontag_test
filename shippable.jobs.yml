@@ -19,7 +19,7 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh 
         
-  - name: script-newtest734
+  - name: script-newtest67
     type: runSh
    #serial: true
     steps:
