@@ -6,7 +6,7 @@ jobs:
       - TASK:
         - script: pwd
         - script: ls
-        - script: ./GET/sample-script1/sample-script1/echo.sh
+        - script: ./GET/sample-script2/sample-script2/echo.sh
   
   - name: script-rs0290
     type: runSh
