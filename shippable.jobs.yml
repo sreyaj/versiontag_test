@@ -1,7 +1,7 @@
 jobs:
   - name: script-new76
     steps:
-      - GET: sample-script1
+      - GET: sample-script1new
       - TASK:
         - script: pwd
         - script: ls
