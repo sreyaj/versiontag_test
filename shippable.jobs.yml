@@ -1,5 +1,5 @@
 jobs:
-  - name: script-rspp1
+  - name: script-rspp12
     type: runSh
     serial: true
     steps:
@@ -9,7 +9,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-rspp2
+  - name: script-rspp22
     type: runSh
    # serial: true
     steps:
