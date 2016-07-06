@@ -1,6 +1,5 @@
 jobs:
-  - name: script-new23hhj
-    type: runSh
+  - name: script-new23ith
     serial: true
     steps:
       - GET: sample-script1
