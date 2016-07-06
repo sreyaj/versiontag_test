@@ -8,7 +8,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script1/sample-script1/echo.sh
   
-  - name: script-rs02
+  - name: script-rs0290
     type: runSh
    # serial: true
     steps:
