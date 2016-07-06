@@ -11,7 +11,7 @@ jobs:
   
   - name: script-rspp228yth
     type: runSh
-   # serial: true
+    serial: true
     steps:
       - GET: sample-script2
       - TASK:
@@ -21,7 +21,7 @@ jobs:
         
   - name: script-rspp3dr
     type: runSh
-   # serial: true
+    serial: true
     steps:
       - GET: sample-script2
       - TASK:
