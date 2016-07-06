@@ -1,5 +1,5 @@
 jobs:
-  - name: script-newtest6
+  - name: script-newtest7
     type: runSh
     serial: true
     steps:
@@ -9,7 +9,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script1/sample-script1/echo.sh
   
-  - name: script-newtest43
+  - name: script-newtest72
     type: runSh
    #serial: true
     steps:
@@ -17,5 +17,13 @@ jobs:
       - TASK:
         - script: pwd
         - script: ls
-        #- script: ./GET/sample-script1/sample-script1/echo.sh
-   
+        #- script: ./GET/sample-script1/sample-script1/echo.sh 
+        
+  - name: script-newtest734
+    type: runSh
+   #serial: true
+    steps:
+      - GET: sample-script1
+      - TASK:
+        - script: pwd  
+        - script: ls
