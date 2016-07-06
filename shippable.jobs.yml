@@ -1,5 +1,5 @@
 jobs:
-  - name: script-rs0145
+  - name: script-rs01245
     type: runSh
     steps:
       - GET: sample-script2
@@ -8,7 +8,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-rs029056
+  - name: script-rs02905645
     type: runSh
    # serial: true
     steps:
