@@ -19,7 +19,7 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh 
         
-  - name: script-rspp3
+  - name: script-rspp3dr
     type: runSh
    # serial: true
     steps:
