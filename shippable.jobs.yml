@@ -11,7 +11,7 @@ jobs:
   
   - name: script-newtest90
     type: runSh
-   #serial: true
+    serial: true
     steps:
       - GET: sample-script1
       - TASK:
