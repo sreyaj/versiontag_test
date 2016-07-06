@@ -1,5 +1,5 @@
 jobs:
-  - name: script-newjobserialtest78th
+  - name: script-newjobs123
     steps:
       - GET: sample-script1new
       - TASK:
