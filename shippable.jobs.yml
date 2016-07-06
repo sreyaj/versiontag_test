@@ -1,5 +1,5 @@
 jobs:
-  - name: script-new23ikluy
+  - name: script-new23iju
     #serial: true
     steps:
       - GET: sample-script1
