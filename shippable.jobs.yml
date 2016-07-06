@@ -19,7 +19,7 @@ jobs:
         
   - name: script-newtestnewyj
     type: runSh
-   #serial: true
+    serial: true
     steps:
       - GET: sample-script1
       - TASK:
