@@ -20,10 +20,10 @@ jobs:
         
   - name: script-rs03
     type: runSh
-    serial: true
+   # serial: true
     steps:
       - GET: sample-script2
       - TASK:
         - script: pwd  
         - script: ls
-        - script: ./GET/sample-script1/sample-script1/echo.sh
+        #- script: ./GET/sample-script1/sample-script1/echo.sh
