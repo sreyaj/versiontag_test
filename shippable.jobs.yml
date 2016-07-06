@@ -19,7 +19,7 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh 
         
-  - name: script-newtest67
+  - name: script-newtest645
     type: runSh
    #serial: true
     steps:
@@ -27,3 +27,4 @@ jobs:
       - TASK:
         - script: pwd  
         - script: ls
+        - script: ./GET/sample-script1/sample-script1/echo.sh
