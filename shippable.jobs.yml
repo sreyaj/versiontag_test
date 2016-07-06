@@ -1,5 +1,6 @@
 jobs:
-  - name: script-newtesting098
+  - name: script-rs01
+    type: runSh
     steps:
       - GET: sample-script1
       - TASK:
@@ -7,7 +8,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script1/sample-script1/echo.sh
   
-  - name: script-newtestnewth
+  - name: script-rs02
     type: runSh
    # serial: true
     steps:
@@ -17,7 +18,7 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh 
         
-  - name: script-newtestnewyj
+  - name: script-rs03
     type: runSh
     serial: true
     steps:
