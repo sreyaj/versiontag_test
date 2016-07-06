@@ -1,5 +1,5 @@
 jobs:
-  - name: script-rsp700
+  - name: script-rsp7sr
     type: runSh
     serial: true
     steps:
