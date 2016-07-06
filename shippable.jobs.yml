@@ -1,6 +1,6 @@
 jobs:
   - name: script-new23ith
-    serial: true
+    #serial: true
     steps:
       - GET: sample-script1
       - TASK:
@@ -10,7 +10,7 @@ jobs:
   
   - name: script-newtest90gh
     type: runSh
-    serial: true
+   # serial: true
     steps:
       - GET: sample-script1
       - TASK:
