@@ -1,5 +1,5 @@
 jobs:
-  - name: script-newtestnodst145
+  - name: script-newtest6
     type: runSh
     serial: true
     steps:
