@@ -1,5 +1,5 @@
 jobs:
-  - name: script-new23
+  - name: script-new2390
     type: runSh
     serial: true
     steps:
