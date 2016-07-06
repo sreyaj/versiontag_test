@@ -1,6 +1,7 @@
 jobs:
   - name: script-rs011
     type: runSh
+    serial: true
     steps:
       - GET: sample-script2
       - TASK:
