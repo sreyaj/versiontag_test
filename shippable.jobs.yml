@@ -8,7 +8,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script1/sample-script1/echo.sh
   
-  - name: script-newtest90gh
+  - name: script-newtestnew
     type: runSh
    # serial: true
     steps:
@@ -18,7 +18,7 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh 
         
-  - name: script-newtest456
+  - name: script-newtestnew
     type: runSh
    #serial: true
     steps:
