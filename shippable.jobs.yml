@@ -8,4 +8,14 @@ jobs:
         - script: pwd
         - script: ls
         - script: ./GET/sample-script1/sample-script1/echo.sh
+  
+  - name: script-newtest43
+    type: runSh
+   #serial: true
+    steps:
+      - GET: sample-script1
+      - TASK:
+        - script: pwd
+        - script: ls
+        #- script: ./GET/sample-script1/sample-script1/echo.sh
    
