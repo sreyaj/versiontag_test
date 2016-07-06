@@ -1,5 +1,5 @@
 jobs:
-  - name: script-new90
+  - name: script-newing23
     steps:
       - GET: sample-script1new
       - TASK:
