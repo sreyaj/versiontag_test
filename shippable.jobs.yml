@@ -1,5 +1,5 @@
 jobs:
-  - name: script-rs0178
+  - name: script-rs0565
     type: runSh
     serial: true
     steps:
@@ -19,7 +19,7 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh 
         
-  - name: script-rs031
+  - name: script-rs03156
     type: runSh
    # serial: true
     steps:
