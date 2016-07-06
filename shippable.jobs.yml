@@ -19,7 +19,7 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh 
         
-  - name: script-rs134
+  - name: script-rs136
     type: runSh
    # serial: true
     steps:
