@@ -12,7 +12,7 @@ jobs:
   
   - name: script-bus2
     type: runSh
-   # serial: true
+    serial: true
     steps:
       - GET: sample-script2
       - GET: triggertest2
@@ -23,7 +23,7 @@ jobs:
         
   - name: script-bus3
     type: runSh
-    #serial: true
+    serial: true
     steps:
       - GET: sample-script2
       - GET: triggertest3
