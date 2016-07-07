@@ -26,7 +26,7 @@ jobs:
     serial: true
     steps:
       - GET: sample-script2
-      - GET: trigger test3
+      - GET: triggertest3
       - TASK:
         - script: pwd  
         - script: ls
