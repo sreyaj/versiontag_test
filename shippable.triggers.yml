@@ -1,16 +1,16 @@
 triggers:
-  - name: triggertest1
+  - name: triggertest123
     type: trigger
     source:
       message: 'testing12 triggere in yml one13'
       
-  - name: triggertest2
+  - name: triggertest223
     type: trigger
     source:
       message: 'twoe13'
       counter: 1
       
-  - name: triggertest3
+  - name: triggertest323
     type: trigger
     source:
       message: 'conternewthry3'
