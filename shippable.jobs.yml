@@ -1,5 +1,5 @@
 jobs:
-  - name: script-b11
+  - name: script-b1123
     type: runSh
     serial: true
     steps:
@@ -10,7 +10,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-b21
+  - name: script-b2123
     type: runSh
    # serial: true
     steps:
@@ -19,7 +19,7 @@ jobs:
       - TASK:
         - script: pwd
         - script: ls
-        #- script: ./GET/sample-script1/sample-script1/echo.sh 
+        - script: ./GET/sample-script1/sample-script1/echo.sh 
         
   - name: script-tw3
     type: runSh
@@ -32,7 +32,7 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh
         
-  - name: ghjob2
+  - name: ghjob23
     type: manifest  
     steps:
       - GET: newgitres
