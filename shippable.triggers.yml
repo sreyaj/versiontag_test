@@ -1,13 +1,13 @@
 triggers:
-  - name: triggertest143
+  - name: triggertest1
     type: trigger
     source:
-      message: 'testing12 trigger in yml14thy'
+      message: 'testing12 trigger in yml14thyrth
       
-  - name: triggertest234
+  - name: triggertest2
     type: trigger
     source:
-      message: 'thetynewthynew'
+      message: 'thetynewthynewthy'
       counter: 1
       
   - name: triggertest3
