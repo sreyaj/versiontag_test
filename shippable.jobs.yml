@@ -1,5 +1,5 @@
 jobs:
-  - name: script-rsoop90
+  - name: script-t1
     type: runSh
     serial: true
     steps:
@@ -10,7 +10,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-rspp0p567
+  - name: script-t2
     type: runSh
     serial: true
     steps:
