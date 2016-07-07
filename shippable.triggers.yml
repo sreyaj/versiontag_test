@@ -2,16 +2,16 @@ triggers:
   - name: triggertest1
     type: trigger
     source:
-      message: 'tesetingb12 triggere in yml oene13wuh5'
+      message: 'tesetingb12 triggere in yml oene13ewuh5'
       
   - name: triggertest2
     type: trigger
     source:
-      message: 'twoee1ew3tbh5'
+      message: 'twoee1ew3tbeh5'
       counter: 1
       
   - name: triggertest3
     type: trigger
     source:
-      message: 'coneteernewwthry3hbi5'
+      message: 'coneteerneewwthry3hbi5'
       counter: 1
