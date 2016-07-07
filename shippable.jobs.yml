@@ -1,7 +1,7 @@
 jobs:
-  - name: script-b11232
+  - name: script-b12341
     type: runSh
-    serial: true
+   # serial: true
     steps:
       - GET: sample-script2
       - GET: triggertest1
@@ -10,7 +10,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-b21232
+  - name: script-b242
     type: runSh
    # serial: true
     steps:
@@ -32,7 +32,7 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh
         
-  - name: ghjob232
+  - name: ghjob23242
     type: manifest  
     steps:
       - GET: newgitres
