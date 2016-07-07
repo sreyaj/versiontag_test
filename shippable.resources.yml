@@ -6,7 +6,7 @@ resources:
       name: shiphitchcock4/sample-script
       branch: master
       
-  - name: nginx-image1
+  - name: nginx-image2
     type: image
     integration: ship4-docker
     source:
