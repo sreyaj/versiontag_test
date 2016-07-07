@@ -32,13 +32,13 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh
         
-  - name: ghbus41
+  - name: ghbus41u
     type: manifest  
     steps:
       - GET: newgitres
       - GET: triggertest3
       
-  - name: ghbus51
+  - name: ghbus51uu
     type: manifest  
     steps:
       - GET: nginx-image2
