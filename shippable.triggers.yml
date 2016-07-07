@@ -2,12 +2,12 @@ triggers:
   - name: triggertest1
     type: trigger
     source:
-      message: 'testing12 trigger in yml14thyrthnt'
+      message: 'testing12 trigger in yml14thyrthntg'
       
   - name: triggertest2
     type: trigger
     source:
-      message: 'thetynewthynewthyd'
+      message: 'thetynewthynewthydg'
       counter: 1
       
   - name: triggertest3
