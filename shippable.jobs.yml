@@ -10,9 +10,9 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-bus21
+  - name: script-bus2167
     type: runSh
-    serial: true
+   # serial: true
     steps:
       - GET: sample-script2
       - GET: triggertest2
