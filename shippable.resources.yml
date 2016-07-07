@@ -30,7 +30,7 @@ resources:
       isPull: false
       tag: latest
       
-  - name: sample-gitrepodelete136
+  - name: sample-gitrepotestdel1
     type: gitRepo
     integration: shiphitchcock4-github
     source:
