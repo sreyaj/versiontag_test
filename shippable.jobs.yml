@@ -4,6 +4,7 @@ jobs:
     serial: true
     steps:
       - GET: sample-script2
+      - GET: triggertest1
       - TASK:
         - script: pwd
         - script: ls
@@ -14,6 +15,7 @@ jobs:
     serial: true
     steps:
       - GET: sample-script2
+      - GET: triggertest2
       - TASK:
         - script: pwd
         - script: ls
@@ -24,6 +26,7 @@ jobs:
     serial: true
     steps:
       - GET: sample-script2
+      - GET: trigger test3
       - TASK:
         - script: pwd  
         - script: ls
