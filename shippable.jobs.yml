@@ -1,7 +1,7 @@
 jobs:
-  - name: script-t4
+  - name: script-t4w1
     type: runSh
-    serial: true
+    #serial: true
     steps:
       - GET: sample-script2
       - GET: triggertest1
@@ -10,9 +10,9 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-t5
+  - name: script-t5w2
     type: runSh
-    serial: true
+   # serial: true
     steps:
       - GET: sample-script2
       - GET: triggertest2
@@ -21,9 +21,9 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh 
         
-  - name: script-rspp93
+  - name: script-tw3
     type: runSh
-    serial: true
+    #serial: true
     steps:
       - GET: sample-script2
       - GET: triggertest3
