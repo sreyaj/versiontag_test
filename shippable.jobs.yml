@@ -21,7 +21,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh 
         
-  - name: script-bus31
+  - name: script-bus31u
     type: runSh
     serial: true
     steps:
