@@ -9,7 +9,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-rspp835
+  - name: script-rspp0p
     type: runSh
     serial: true
     steps:
