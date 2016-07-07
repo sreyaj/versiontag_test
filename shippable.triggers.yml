@@ -7,9 +7,11 @@ triggers:
   - name: triggertest2
     type: trigger
     source:
+      message: 'the'
       counter: 1
       
   - name: triggertest3
     type: trigger
     source:
+      message: 'conter'
       counter: 1
