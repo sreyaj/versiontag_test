@@ -1,5 +1,5 @@
 jobs:
-  - name: script-t1
+  - name: script-t4
     type: runSh
     serial: true
     steps:
@@ -10,7 +10,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-t2
+  - name: script-t5
     type: runSh
     serial: true
     steps:
