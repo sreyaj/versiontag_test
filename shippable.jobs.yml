@@ -1,5 +1,5 @@
 jobs:
-  - name: script-busnum1
+  - name: script-busnum11
     type: runSh
     serial: true
     steps:
@@ -10,9 +10,9 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-busnum2
+  - name: script-busnum12
     type: runSh
-   # serial: true
+    serial: true
     steps:
       - GET: sample-script2
       - GET: triggertest2
@@ -21,9 +21,9 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh 
         
-  - name: script-busnum3
+  - name: script-busnum13
     type: runSh
-    serial: true
+   # serial: true
     steps:
       - GET: sample-script2
       - GET: triggertest3
