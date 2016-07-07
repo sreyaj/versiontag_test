@@ -1,5 +1,5 @@
 jobs:
-  - name: script-b62434
+  - name: script-b6243434
     type: runSh
     serial: true
     steps:
@@ -10,7 +10,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-b656f
+  - name: script-b656f43
     type: runSh
    # serial: true
     steps:
@@ -21,24 +21,24 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh 
         
-  - name: script-tw3
+  - name: script-tw343
     type: runSh
     #serial: true
     steps:
       - GET: sample-script2
-      #- GET: triggertest3
+      - GET: triggertest3
       - TASK:
         - script: pwd  
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh
         
-  - name: gh78r
+  - name: gh78r33
     type: manifest  
     steps:
       - GET: newgitres
       - GET: triggertest3
       
-  - name: gh78zz
+  - name: gh78zz43
     type: manifest  
     steps:
       - GET: nginx-image2
