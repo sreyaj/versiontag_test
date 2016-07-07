@@ -26,8 +26,14 @@ jobs:
     #serial: true
     steps:
       - GET: sample-script2
-      - GET: triggertest3
+      #- GET: triggertest3
       - TASK:
         - script: pwd  
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh
+        
+  - name: ghjob2
+    type: manifest  
+    steps:
+      - GET: newgitres
+      - GET: triggertest3
