@@ -1,10 +1,10 @@
 triggers:
-  - name: triggertest1
+  - name: triggertest143
     type: trigger
     source:
       message: 'testing12 trigger in yml14thy'
       
-  - name: triggertest2
+  - name: triggertest234
     type: trigger
     source:
       message: 'thetynewthynew'
