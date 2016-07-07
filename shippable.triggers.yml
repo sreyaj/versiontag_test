@@ -7,7 +7,7 @@ triggers:
   - name: triggertest2
     type: trigger
     source:
-      message: 'twoee1ewgg3tibeh5'
+      message: 'twoee1ewhhgg3tibeh5'
       counter: 1
       
   - name: triggertest3
