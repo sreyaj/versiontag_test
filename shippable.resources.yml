@@ -30,7 +30,7 @@ resources:
       isPull: false
       tag: latest
       
-  - name: sample-deleting
+  - name: sample-deletin1
     type: gitRepo
     integration: shiphitchcock4-github
     source:
