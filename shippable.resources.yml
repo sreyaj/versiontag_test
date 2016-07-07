@@ -14,7 +14,7 @@ resources:
       isPull: false
       tag: latest
       
-  - name: newgitresnew
+  - name: newgitresnew34
     type: image
     integration: ship4-docker
     source:
