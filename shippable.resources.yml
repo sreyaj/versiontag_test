@@ -29,4 +29,12 @@ resources:
       name: "shiphitchcock4/hitchcock4_sample_node"
       isPull: false
       tag: latest
+      
+  - name: sample-deltest
+    type: gitRepo
+    integration: shiphitchcock4-github
+    source:
+      name: shiphitchcock4/testingpipeline
+      branch: master
+      
  
