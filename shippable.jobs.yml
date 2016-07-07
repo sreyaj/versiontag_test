@@ -1,7 +1,7 @@
 jobs:
-  - name: script-b6
+  - name: script-b61r
     type: runSh
-   # serial: true
+    serial: true
     steps:
       - GET: sample-script2
       - GET: triggertest1
@@ -10,7 +10,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-b61
+  - name: script-b61wer
     type: runSh
    # serial: true
     steps:
@@ -32,7 +32,7 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh
         
-  - name: ghjob63
+  - name: ghjob613w
     type: manifest  
     steps:
       - GET: newgitres
