@@ -30,7 +30,7 @@ resources:
       isPull: false
       tag: latest
       
-  - name: sample-deltest1
+  - name: sample-deltest11
     type: gitRepo
     integration: shiphitchcock4-github
     source:
