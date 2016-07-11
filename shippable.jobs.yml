@@ -35,7 +35,7 @@ jobs:
   - name: ghbus41ut
     type: manifest  
     steps:
-      - GET: newgitres
+      - GET: newgitresnew34
       - GET: triggertest3
       
   - name: ghbus51uut
