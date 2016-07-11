@@ -1,5 +1,5 @@
 jobs:
-  - name: script-bus5690hghj
+  - name: script-busnum101
     type: runSh
     serial: true
     steps:
@@ -10,7 +10,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh
   
-  - name: script-busnum12
+  - name: script-busnum102
     type: runSh
     serial: true
     steps:
@@ -21,7 +21,7 @@ jobs:
         - script: ls
         - script: ./GET/sample-script2/sample-script2/echo.sh 
         
-  - name: script-busnum13
+  - name: script-busnum103
     type: runSh
    # serial: true
     steps:
@@ -32,13 +32,13 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh
         
-  - name: ghbus41ut
+  - name: ghbusnum104
     type: manifest  
     steps:
       - GET: newgitresnew34
       - GET: triggertest3
       
-  - name: ghbus51uut
+  - name: ghbusnum105
     type: manifest  
     steps:
       #- GET: nginx-image2
