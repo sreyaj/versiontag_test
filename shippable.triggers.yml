@@ -2,16 +2,16 @@ triggers:
   - name: triggertest1
     type: trigger
     source:
-      message: 'tesehytinwglthtbth12 triifgfuggujythre in yml oekke13ewuh5'
+      message: 'tesehytinwglthtbth12 triifgfuggthtujythre in yml oekke13ewuh5'
       
   - name: triggertest2
     type: trigger
     source:
-      message: 'twoeeth1wewyyhhrrgg3tibeh5'
+      message: 'twoeeth1wewyyhhrrgg3tibtteh5'
       counter: 1
       
   - name: triggertest3
     type: trigger
     source:
-      message: 'coneteewthe thekryyrrinfffyeewwggthry3hbi5'
+      message: 'coneteewthe thekrttyyrrinfffyeewwggthry3hbi5'
       counter: 1
