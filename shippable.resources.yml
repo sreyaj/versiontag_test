@@ -22,7 +22,7 @@ resources:
       isPull: false
       tag: latest
   
-   - name: newgittest1
+  - name: newgittest1
     type: image
     integration: ship4-docker
     source:
