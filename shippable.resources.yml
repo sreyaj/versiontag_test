@@ -21,4 +21,11 @@ resources:
       name: "shiphitchcock4/hitchcock4_sample_nodenew"
       isPull: false
       tag: latest
- 
+  
+   - name: newgittest1
+    type: image
+    integration: ship4-docker
+    source:
+      name: "shiphitchcock4/hitchcock4_sample_nodenew"
+      isPull: true
+      tag: latest
