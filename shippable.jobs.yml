@@ -1,5 +1,5 @@
 jobs:
-  - name: script-bus5690
+  - name: script-bus5690hghj
     type: runSh
     serial: true
     steps:
