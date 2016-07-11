@@ -1,5 +1,5 @@
 jobs:
-  - name: script-busnum100p
+  - name: script-busnum10
     type: runSh
     serial: true
     steps:
