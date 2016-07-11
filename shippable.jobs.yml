@@ -41,5 +41,5 @@ jobs:
   - name: ghbus51uut
     type: manifest  
     steps:
-      - GET: nginx-image2
+      #- GET: nginx-image2
       - GET: triggertest3
