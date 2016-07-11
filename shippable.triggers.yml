@@ -13,5 +13,5 @@ triggers:
   - name: triggertest3
     type: trigger
     source:
-      message: 'coneteewthe thekrrrinyeewwggthry3hbi5'
+      message: 'coneteewthe thekrrrinfffyeewwggthry3hbi5'
       counter: 1
