@@ -17,6 +17,6 @@ jobs:
     type: ecsDeploy
     steps:
       - GET: ecstest61
-      - GET: triggertest12
+      - GET: triggertest14
       #- PUT shipnew
 
