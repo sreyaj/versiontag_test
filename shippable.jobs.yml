@@ -38,9 +38,9 @@ jobs:
       - GET: newgitresnew34
       - GET: triggertest3
       
-  - name: ghbusnum106
-    type: manifest  
-    steps:
-      - GET: newgittest1
-      - GET: triggertest3
-      - GET: ghbusnum1047
+#  - name: ghbusnum106
+ #   type: manifest  
+  #  steps:
+   #   - GET: newgittest1
+    #  - GET: triggertest3
+     # - GET: ghbusnum1047
