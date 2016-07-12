@@ -6,10 +6,10 @@ jobs:
       - GET: new-image123
       - GET: triggertest13
       
-  - name : deployToEcstest1
-    type: ecsDeploy
+  - name: ecstest665
+    type: manifest
     steps:
-      - GET: ecstest6
-     #- PUT: shipnew
-    #  - GET: triggertest13
+      - GET: new-image
+      - GET: new-image123
       - GET: triggertest14
+
