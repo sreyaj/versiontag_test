@@ -1,31 +1,36 @@
 jobs:
-  - name: script-p111
-    type: runSh
-    #serial: true
+  - name: ecstest6
+    type: manifest
     steps:
-      - GET: sample-script1
       - GET: triggertest1
-      - TASK:
-        - script: pwd
-        - script: ./GET/sample-script/sample-script/echo.sh
+      - GET: new-imagenode1
+  #- name: script-p111
+   # type: runSh
+    #serial: true
+    #steps:
+     # - GET: sample-script1
+    #  - GET: triggertest1
+     # - TASK:
+      #  - script: pwd
+      #  - script: ./GET/sample-script/sample-script/echo.sh
         
-  - name: script-p222
-    type: runSh
+  #- name: script-p222
+   # type: runSh
     #serial: true
-    steps:
-      - GET: sample-script1
-      - GET: triggertest1
-      - TASK:
-        - script: ls
-        - script: ./GET/sample-script/sample-script/echo.sh
-  - name: script-p333
-    type: runSh
+  #  steps:
+   #   - GET: sample-script1
+    #  - GET: triggertest1
+     # - TASK:
+      #  - script: ls
+       # - script: ./GET/sample-script/sample-script/echo.sh
+  #- name: script-p333
+   # type: runSh
     #serial: true
-    steps:
-      - GET: sample-script1
-      - GET: triggertest1  
-      - TASK:
-        - script: ps
-        - script: ./GET/sample-script/sample-script/echo.sh
+     #steps:
+      #- GET: sample-script1
+      #- GET: triggertest1  
+      #- TASK:
+       # - script: ps
+        #- script: ./GET/sample-script/sample-script/echo.sh
 
 
