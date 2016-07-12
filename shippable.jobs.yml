@@ -1,5 +1,5 @@
 jobs:
-  - name: script-p1
+  - name: script-p11
     type: runSh
     #serial: true
     steps:
