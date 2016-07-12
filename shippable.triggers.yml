@@ -1,5 +1,5 @@
 triggers:
-  - name: triggertest11
+  - name: triggertest1
     type: trigger
     source:
       message: 'then'
