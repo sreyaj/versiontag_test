@@ -11,5 +11,5 @@ jobs:
     steps:
       - GET: ecstest6
       #- PUT: shipnew
-      - GET: triggertest12
+      - GET: triggertest13
  
