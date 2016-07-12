@@ -1,9 +1,9 @@
 jobs:
-  - name: ecstest6389
+  - name: ecstest6389thy
     type: manifest
     steps:
       - GET: triggertest1
-      - GET: new-imagenode1
+      - GET: new-imagenode2
   #- name: script-p111
    # type: runSh
     #serial: true
