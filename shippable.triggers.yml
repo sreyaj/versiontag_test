@@ -2,7 +2,7 @@ triggers:
   - name: triggertest14
     type: trigger
     source:
-      message: 'the tffefTHRgffstindg of the rysnc'
+      message: 'the tffefTHRgffstithyndg of the rysnc'
       
   - name: triggertest12
     type: trigger
