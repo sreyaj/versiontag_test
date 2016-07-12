@@ -1,17 +1,17 @@
 triggers:
-  - name: triggertest14
+  - name: triggertest1
     type: trigger
     source:
-      message: 'the of the rysnffc'
+      message: 'the of the rysniffc'
       
-  - name: triggertest12
+  - name: triggertest2
     type: trigger
     source:
-      message: 'tesRRtfggfifhhfngg of syggffgggggns2'
+      message: 'tesRRtfggfifhhfnigg of syggffgggggns2'
       counter: 1
       
-  - name: triggertest13
+  - name: triggertest3
     type: trigger
     source:
-      message: 'testfFthrfTffhgniRggRnfyhthygfg of ssyyjnc3'
+      message: 'testfFthrfTffhggniRggRnfyhthygfg of ssyyjnc3'
       counter: 2
