@@ -12,4 +12,10 @@ jobs:
       - GET: new-image
       - GET: new-image123
       - GET: triggertest12
+  
+  - name : deployToEcstest1
+    type: ecsDeploy
+    steps:
+      - GET ecstest61
+      #- PUT shipnew
 
