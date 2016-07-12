@@ -2,7 +2,7 @@ triggers:
   - name: triggertest11
     type: trigger
     source:
-      message: 'thenddew'
+      message: 'then'
       
   - name: triggertest2
     type: trigger
@@ -14,4 +14,4 @@ triggers:
     type: trigger
     source:
       message: 'tewwt3'
-      counter: 2
+      counter: 3
