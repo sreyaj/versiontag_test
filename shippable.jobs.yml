@@ -1,12 +1,12 @@
 jobs:
-  - name: ecstest61
+  - name: ecstest89
     type: manifest
     steps:
       - GET: new-image
       - GET: new-image123
       - GET: triggertest14
       
-  - name: ecstest665
+  - name: ecstest100
     type: manifest
     steps:
       - GET: new-image
