@@ -2,7 +2,7 @@ triggers:
   - name: triggertest1
     type: trigger
     source:
-      message: 'the of the rddsniffc'
+      message: 'the of the rdfdsniffc'
       
   - name: triggertest2
     type: trigger
