@@ -7,11 +7,11 @@ triggers:
   - name: triggertest12
     type: trigger
     source:
-      message: 'tesRRtffiffng of syns2'
+      message: 'tesRRtfggfiffng of syns2'
       counter: 1
       
   - name: triggertest13
     type: trigger
     source:
-      message: 'testfFthrfThniRRnyhthygfg of ssyyjnc3'
+      message: 'testfFthrfThniRggRnyhthygfg of ssyyjnc3'
       counter: 2
