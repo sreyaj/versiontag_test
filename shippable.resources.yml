@@ -1,31 +1,7 @@
 resources:
-  - name: sample-script2
+  - name: sample-script
     type: gitRepo
     integration: shiphitchcock4-github
     source:
       name: shiphitchcock4/sample-script
       branch: master
-      
-  #- name: nginx-image2
-  #  type: image
-  #  integration: ship4-docker
-  #  source:
-  #    name: "shiphitchcock4/hitchcock4_sample_node"
-  #    isPull: false
-  #    tag: latest
-      
-  - name: newgitresnew34
-    type: image
-    integration: ship4-docker
-    source:
-      name: "shiphitchcock4/hitchcock4_sample_nodenew"
-      isPull: false
-      tag: latest
-  
-  - name: newgittest2
-    type: image
-    integration: ship4-docker
-    source:
-      name: "shiphitchcock4/hitchcock4_sample_nodenew"
-      isPull: true
-      tag: latest
