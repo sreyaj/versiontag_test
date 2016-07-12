@@ -32,15 +32,15 @@ jobs:
         - script: ls
         #- script: ./GET/sample-script1/sample-script1/echo.sh
         
-  - name: ghbusnum1047
+ # - name: ghbusnum1047
+  #  type: manifest  
+   # steps:
+    #  - GET: newgitresnew34
+    #  - GET: triggertest3
+      
+  - name: ghbusnum106
     type: manifest  
     steps:
-      - GET: newgitresnew34
+      - GET: newgittest1
       - GET: triggertest3
-      
-#  - name: ghbusnum106
- #   type: manifest  
-  #  steps:
-   #   - GET: newgittest1
-    #  - GET: triggertest3
-     # - GET: ghbusnum1047
+      - GET: ghbusnum1047
