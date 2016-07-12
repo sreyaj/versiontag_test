@@ -1,5 +1,5 @@
 jobs:
-  - name: ecstest6
+  - name: ecstest61
     type: manifest
     steps:
       - GET: new-image
