@@ -1,32 +1,7 @@
 resources:
-  - name: sample-script
+  - name: sample-script1
     type: gitRepo
-    integration: shiphitchcock4-github
+    integration: github
     source:
       name: shiphitchcock4/sample-script
       branch: master
-  
-
-  - name: new-image
-    type: image
-    integration: ship4-docker
-    source:
-      name: "shiphitchcock4/hitchcock4_sample_node"
-      isPull: false
-      tag: latest
-
-  - name: shipnew
-    type: ecsCluster
-    integration: ship-awsnew
-    source:
-      name : "default" #name of the cluster we are deploying
-      region: "us-west-2"
-      
-  - name: new-image123
-    type: image
-    integration: ship4-docker
-    source:
-      name: "shiphitchcock4/hitchcock4_sample_node"
-      isPull: false
-      tag: latest
-  
