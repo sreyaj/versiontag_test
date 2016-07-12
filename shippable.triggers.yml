@@ -1,16 +1,16 @@
 triggers:
-  - name: triggertest1
+  - name: triggertest11
     type: trigger
     source:
       message: 'the tefTHRgffstindg of the rysnc'
       
-  - name: triggertest2
+  - name: triggertest12
     type: trigger
     source:
       message: 'tesRRtiffng of syns2'
       counter: 1
       
-  - name: triggertest3
+  - name: triggertest13
     type: trigger
     source:
       message: 'testfFthrfThniRRnyhthygfg of ssyyjnc3'
