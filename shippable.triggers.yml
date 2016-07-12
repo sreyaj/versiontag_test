@@ -13,5 +13,5 @@ triggers:
   - name: triggertest13
     type: trigger
     source:
-      message: 'testfFthrfThniRggRnyhthygfg of ssyyjnc3'
+      message: 'testfFthrfTffhniRggRnyhthygfg of ssyyjnc3'
       counter: 2
