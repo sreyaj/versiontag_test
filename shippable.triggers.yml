@@ -1,8 +1,8 @@
 triggers:
-  - name: triggertest1
+  - name: triggertest11
     type: trigger
     source:
-      message: 'thenew'
+      message: 'thenddew'
       
   - name: triggertest2
     type: trigger
