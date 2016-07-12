@@ -2,12 +2,12 @@ triggers:
   - name: triggertest14
     type: trigger
     source:
-      message: 'the tffefTHgggRgffstithyndg of the rysnc'
+      message: 'the tffefTHggghRgffstithyndg of the rysnc'
       
   - name: triggertest12
     type: trigger
     source:
-      message: 'tesRRtfggfiffng of sygggggggns2'
+      message: 'tesRRtfggfifhhfng of sygggggggns2'
       counter: 1
       
   - name: triggertest13
