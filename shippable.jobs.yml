@@ -1,22 +1,29 @@
 jobs:
-  - name: ecstest8967
-    type: manifest
+  - name: script-0y101
+    type: runSh
+    #serial: true
     steps:
-      - GET: new-image
-      - GET: new-image123
-      - GET: triggertest14
-      
-  - name: ecstest10076
-    type: manifest
+      - GET: sample-script1
+      - GET: triggertest1
+      - TASK:
+        - script: pwd
+        - script: ./GET/sample-script/sample-script/echo.sh
+  - name: script-0y101
+    type: runSh
+    #serial: true
     steps:
-      - GET: new-image
-      - GET: new-image123
-      - GET: triggertest12
-  
-  - name: deployToEcstest1
-    type: ecsDeploy
+      - GET: sample-script1
+      - GET: triggertest2
+      - TASK:
+        - script: ls
+        - script: ./GET/sample-script/sample-script/echo.sh
+  - name: script-0y102
+    type: runSh
+    #serial: true
     steps:
-      - GET: ecstest61
-      - GET: triggertest14
-      #- PUT shipnew
-   
+      - GET: sample-script1
+      - TASK:
+        - script: ps
+        - script: ./GET/sample-script/sample-script/echo.sh
+
+
