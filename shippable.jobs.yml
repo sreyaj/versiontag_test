@@ -5,10 +5,11 @@ jobs:
       - GET: new-image
       - GET: new-image123
       - GET: triggertest13
+      
   - name : deployToEcstest1
     type: ecsDeploy
     steps:
       - GET: ecstest6
-      - PUT: shipnew
+      #- PUT: shipnew
       - GET: triggertest12
  
