@@ -15,12 +15,12 @@ resources:
       isPull: false
       tag: latest
 
-  - name: shipnew
-    type: ecsCluster
-    integration: ship-awsnew
-    source:
-      name : "default" #name of the cluster we are deploying
-      region: "us-west-2"
+ # - name: shipnew
+  #  type: ecsCluster
+  #  integration: ship-awsnew
+  #  source:
+  #    name : "default" #name of the cluster we are deploying
+  #    region: "us-west-2"
       
   - name: new-image123
     type: image
