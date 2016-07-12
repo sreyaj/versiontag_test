@@ -43,3 +43,4 @@ jobs:
     steps:
       - GET: newgittest1
       - GET: triggertest3
+      - GET: ghbusnum1047
