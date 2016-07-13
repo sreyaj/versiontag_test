@@ -5,7 +5,7 @@ jobs:
       - GET: triggertest1
       - GET: new-imagenode2
       
-  - name: script-p46
+  - name: script-p477
     type: runSh
     serial: true
     steps:
