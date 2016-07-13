@@ -6,11 +6,11 @@ resources:
   #    name: shiphitchcock4/sample-script
   #    branch: master
       
-#  - name: new-imagenode2
- #   type: image
-#    integration: ship4-docker
- #   source:
-#      name: "shiphitchcock4/hitchcock4_sample_node"
- #     isPull: false
-  #    tag: latest
+  - name: new-imagenode2
+    type: image
+    integration: ship4-docker
+    source:
+      name: "shiphitchcock4/hitchcock4_sample_node"
+      isPull: false
+      tag: latest
  
