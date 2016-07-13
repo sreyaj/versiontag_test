@@ -1,11 +1,11 @@
 jobs:
-  - name: ecstestinn23
+  - name: ecstesting45
     type: manifest
     steps:
       - GET: triggertest1
       - GET: new-imagenode2
       
-  - name: script-p11123
+  - name: script-p46
     type: runSh
     serial: true
     steps:
