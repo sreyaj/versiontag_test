@@ -1,5 +1,5 @@
 jobs:
-  - name: ecstesti001
+  - name: ecstesti002
     type: manifest
     steps:
       - GET: triggertest1
