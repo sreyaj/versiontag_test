@@ -5,9 +5,9 @@ jobs:
       - GET: triggertest1
       - GET: new-imagenode2
       
-  - name: script-p477
+  - name: script-p890
     type: runSh
-    serial: true
+   # serial: true
     steps:
       - GET: sample-script1
       - GET: triggertest1
