@@ -2,7 +2,7 @@ triggers:
   - name: triggertest1
     type: trigger
     source:
-      message: 'ful1'
+      message: 'fufl1'
       
   #- name: triggertest2
   #  type: trigger
