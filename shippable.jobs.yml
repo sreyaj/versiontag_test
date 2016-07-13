@@ -1,11 +1,11 @@
 jobs:
-  - name: ecstesti78967
+  - name: ecstestinn23
     type: manifest
     steps:
       - GET: triggertest1
       - GET: new-imagenode2
       
-  - name: script-p111
+  - name: script-p11123
     type: runSh
     serial: true
     steps:
@@ -15,15 +15,15 @@ jobs:
         - script: pwd
         - script: ./GET/sample-script/sample-script/echo.sh
         
-  - name: script-p222
-    type: runSh
-    serial: true
-    steps:
-      - GET: sample-script1
-      - GET: triggertest1
-      - TASK:
-        - script: ls
-        - script: ./GET/sample-script/sample-script/echo.sh
+ # - name: script-p222
+#    type: runSh
+ #   serial: true
+  #  steps:
+   #   - GET: sample-script1
+  #    - GET: triggertest1
+   #   - TASK:
+  #      - script: ls
+   #     - script: ./GET/sample-script/sample-script/echo.sh
   #- name: script-p333
    # type: runSh
     #serial: true
