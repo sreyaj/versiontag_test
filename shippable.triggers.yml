@@ -2,7 +2,7 @@ triggers:
   - name: triggertest1
     type: trigger
     pointer:
-      message: 'new push1'
+      message: 'new push167'
       
   #- name: triggertest2
   #  type: trigger
