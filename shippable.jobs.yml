@@ -5,7 +5,7 @@ jobs:
       - GET: triggertest1
       - GET: new-imagenode2
       
-  - name: script-piperunShj81
+  - name: script-piperun09
     type: runSh
    # serial: true
     steps:
@@ -15,7 +15,7 @@ jobs:
         - script: pwd
         - script: ./GET/sample-script/sample-script/echo.sh
         
-  - name: script-piperunShj82
+  - name: script-piperunSh091
     type: runSh
     serial: true
     steps:
