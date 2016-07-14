@@ -1,11 +1,11 @@
 jobs:
-  - name: ecstesting45
+  - name: ecstestiingpipe1
     type: manifest
     steps:
       - GET: triggertest1
       - GET: new-imagenode2
       
-  - name: script-p890
+  - name: script-pipe2
     type: runSh
    # serial: true
     steps:
