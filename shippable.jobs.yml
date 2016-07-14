@@ -15,17 +15,17 @@ jobs:
         - script: pwd
         - script: ./GET/sample-script/sample-script/echo.sh
         
- # - name: script-p222
-#    type: runSh
- #   serial: true
-  #  steps:
-   #   - GET: sample-script1
-  #    - GET: triggertest1
-   #   - TASK:
-  #      - script: ls
-   #     - script: ./GET/sample-script/sample-script/echo.sh
+  - name: script-p2222
+    type: runSh
+    serial: true
+    steps:
+      - GET: sample-script1
+      - GET: triggertest1
+      - TASK:
+        - script: ls
+        - script: ./GET/sample-script/sample-script/echo.sh
   #- name: script-p333
-   # type: runSh
+    #type: runSh
     #serial: true
      #steps:
       #- GET: sample-script1
