@@ -2,7 +2,7 @@ triggers:
   - name: triggertest1
     type: trigger
     pointer:
-      message: 'new iiui478i'
+      message: 'new iiui478io'
       
   #- name: triggertest2
   #  type: trigger
