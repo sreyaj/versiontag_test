@@ -1,11 +1,11 @@
 jobs:
-  - name: ecstestiingk111
+  - name: ecstestiingk17
     type: manifest
     steps:
       - GET: triggertest1
       - GET: new-imagenode2
       
-  - name: script-pipek21
+  - name: script-pipek27
     type: runSh
    # serial: true
     steps:
