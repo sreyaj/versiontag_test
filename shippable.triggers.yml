@@ -1,7 +1,7 @@
 triggers:
   - name: triggertest1
     type: trigger
-    source:
+    pointer:
       message: 'fddvdvuffdgthyl1vvh23'
       
   #- name: triggertest2
