@@ -1,8 +1,8 @@
 triggers:
-  - name: triggertest3p
-    type: trigger
-    version:
-      counter: 4
+   - name: trigger-dv-man
+     type: trigger
+     version:
+       counter: 1
       
   #- name: triggertest2
   #  type: trigger
