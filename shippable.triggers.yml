@@ -1,7 +1,7 @@
 triggers:
   - name: triggertest3p
     type: trigger
-    version::
+    version:
       counter: 4
       
   #- name: triggertest2
