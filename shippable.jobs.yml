@@ -1,5 +1,5 @@
 jobs:
-  - name: ecsfailmanifest
+  - name: ecsfailmanifest1
     type: manifest
     steps:
       - GET: triggertest34
