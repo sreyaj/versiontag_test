@@ -1,5 +1,5 @@
 triggers:
-  - name: triggertest34
+  - name: triggertest3p
     type: trigger
     version::
       message: 'npooppwe'
