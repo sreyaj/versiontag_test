@@ -11,7 +11,7 @@ jobs:
   - name : deployecsfailjob
     type: ecsDeploy
     steps:
-      - GET: ecsfailmanifest
+      - GET: ecsfailmanifest1
       - GET: resoproecsfail
       - GET: triggertest3p
     on_failure:
