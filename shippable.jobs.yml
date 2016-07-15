@@ -2,7 +2,7 @@ jobs:
   - name: ecsfailmanifest11
     type: manifest
     steps:
-      - GET: triggertest3p
+      - GET: trigger-dv-man
       - GET: new-imagetag
    # on_failure:
       #- ./party.sh
@@ -13,7 +13,7 @@ jobs:
     steps:
       - GET: ecsfailmanifest1
       - GET: resoproecsfail
-      - GET: triggertest3p
+      - GET: trigger-dv-man
     on_failure:
       #- ./party.sh
       - ls
