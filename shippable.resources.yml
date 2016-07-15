@@ -15,4 +15,11 @@ resources:
     initialVersion:
        versionName: "latest"
       #tag: latest
+      
+  - name: resoproecsfail
+    type: ecsCluster
+    integration: ship-awsnew
+    source:
+      name : "default" #name of the cluster we are deploying
+      region: "us-west-2"
  
