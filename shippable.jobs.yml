@@ -11,7 +11,7 @@ jobs:
   - name : deployecsfailjob8
     type: ecsDeploy
     steps:
-      - GET: ecsfailmanifest1
+      - GET: ecsfailmanifest11
       - GET: resoproecsfail
       - GET: trigger-dv-man
     on_failure:
