@@ -13,13 +13,14 @@ resources:
       sourceName: "shiphitchcock4/hitchcock4_sample_node"
       isPull: false
     initialVersion:
-       versionName: "latest"
+      versionName: "latest"
       #tag: latest
       
   - name: resoproecsfail
-    type: ecsCluster1
+    type: ecsCluster11
     integration: ship-awsnew
-    source:
-      name : "default" #name of the cluster we are deploying
+    pointer:
+      sourceName: "default" #name of the cluster we are deploying
+    version:
       region: "us-west-2"
  
