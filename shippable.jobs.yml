@@ -16,8 +16,8 @@ jobs:
       - GET: trigger-dv-man
     on_failure:
       #- ./party.sh
-      - ls56
-      - pwd56
+      - ls
+      - pwd
 
 
 
