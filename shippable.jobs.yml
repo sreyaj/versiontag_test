@@ -18,7 +18,7 @@ jobs:
       #- ./party.sh
       - ls
       - pwd
-      - testfaills
+      #- testfaills
 
 
 
