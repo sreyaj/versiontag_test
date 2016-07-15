@@ -1,13 +1,25 @@
 jobs:
-  - name: ecsfail
+  - name: ecsfailmanifest
     type: manifest
     steps:
       - GET: triggertest34
       - GET: new-imagetag
+   # on_failure:
+      #- ./party.sh
+    #  - ls
+     # - pwd
+  - name : deployecsfailjob
+    type: ecsDeploy
+    steps:
+      - GET: ecsfail
+      - GET: resoproecsfail
     on_failure:
       #- ./party.sh
       - ls
       - pwd
+
+
+
 #  - name: script-piperun90
  #   type: runSh
    # serial: true
