@@ -12,7 +12,7 @@ resources:
     pointer:
       sourceName: "shiphitchcock4/hitchcock4_sample_node"
       isPull: false
-    initialVersion:
+    seed:
       versionName: "latest"
       #tag: latest
       
