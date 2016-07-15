@@ -2,7 +2,7 @@ triggers:
   - name: triggertest3p
     type: trigger
     version::
-      message: 'npooppwe'
+      message: 'npooppwe8'
       
   #- name: triggertest2
   #  type: trigger
