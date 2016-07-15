@@ -1,7 +1,7 @@
 triggers:
   - name: triggertest34
     type: trigger
-    pointer:
+    version::
       message: 'npooppwe'
       
   #- name: triggertest2
