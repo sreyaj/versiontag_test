@@ -13,7 +13,7 @@ jobs:
     steps:
       - GET: ecsfail
       - GET: resoproecsfail
-      - triggertest34
+      - GET: triggertest34
     on_failure:
       #- ./party.sh
       - ls
