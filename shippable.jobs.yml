@@ -2,8 +2,8 @@ jobs:
   - name: ecsfail
     type: manifest
     steps:
-      - GET: triggertest1
-      - GET: new-imagenode2
+      - GET: triggertest34
+      - GET: new-imagetag
     on_failure:
       #- ./party.sh
       - ls
