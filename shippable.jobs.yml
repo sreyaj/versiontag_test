@@ -8,7 +8,7 @@ jobs:
       #- ./party.sh
     #  - ls
      # - pwd
-  - name : deployecsfail13
+  - name : deployecsfail14
     type: ecsDeploy
     steps:
       - GET: ecsfailmanifest11
@@ -18,6 +18,7 @@ jobs:
       #- ./party.sh
       - ls
       - pwd
+      - testfaills
 
 
 
