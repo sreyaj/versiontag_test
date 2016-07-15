@@ -16,9 +16,8 @@ jobs:
       - GET: trigger-dv-man
     on_failure:
       #- ./party.sh
-      - ls
-      - pwd
-      #- testfaills
+      - echo 'failed'
+      - testfaills
 
 
 
