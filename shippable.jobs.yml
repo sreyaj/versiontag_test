@@ -1,5 +1,5 @@
 jobs:
-  - name: ecsfailmanifest1
+  - name: ecsfailmanifest11
     type: manifest
     steps:
       - GET: triggertest3p
@@ -8,7 +8,7 @@ jobs:
       #- ./party.sh
     #  - ls
      # - pwd
-  - name : deployecsfailjob
+  - name : deployecsfailjob1
     type: ecsDeploy
     steps:
       - GET: ecsfailmanifest1
