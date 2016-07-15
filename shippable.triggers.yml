@@ -2,7 +2,7 @@ triggers:
   - name: triggertest34
     type: trigger
     pointer:
-      message: 'npoop'
+      message: 'npooppwe'
       
   #- name: triggertest2
   #  type: trigger
