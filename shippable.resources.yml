@@ -17,7 +17,7 @@ resources:
       #tag: latest
       
   - name: resoproecsfail
-    type: ecsCluster
+    type: ecsCluster1
     integration: ship-awsnew
     pointer:
       sourceName: "default" #name of the cluster we are deploying
