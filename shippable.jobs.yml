@@ -1,10 +1,10 @@
 jobs:
-  - name: ecsmanifest908
+  - name: ecsfail
     type: manifest
     steps:
       - GET: triggertest1
       - GET: new-imagenode2
-    on_success:
+    on_failure:
       #- ./party.sh
       - ls
       - pwd
