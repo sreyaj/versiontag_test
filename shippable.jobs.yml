@@ -1,9 +1,9 @@
 jobs:
-  - name: ecsfailmanifest11
+  - name: ecsfailmani7
     type: manifest
     steps:
-      - GET: trigger-dv-man
-      - GET: new-imagetag
+      - IN: trigger-dv-man
+      - IN: new-tag1
    # on_failure:
       #- ./party.sh
     #  - ls
