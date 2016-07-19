@@ -1,12 +1,12 @@
 resources:
-  - name: sample-script1
-    type: gitRepo
-    integration: shiphitchcock4-github
-    pointer:
-      sourceName: shiphitchcock4/sample-script
-      branch: master
+  #- name: sample-script1
+   # type: gitRepo
+  #  integration: shiphitchcock4-github
+   # pointer:
+    #  sourceName: shiphitchcock4/sample-script
+     # branch: master
       
-  - name: new-imagetag
+  - name: new-tag1
     type: image
     integration: ship4-docker
     pointer:
