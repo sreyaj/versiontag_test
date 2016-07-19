@@ -4,6 +4,7 @@ jobs:
     steps:
       - IN: trigger-dv-man
       - IN: new-tag1
+      - TASK: managed
    # on_failure:
       #- ./party.sh
     #  - ls
