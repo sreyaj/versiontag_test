@@ -1,9 +1,10 @@
 jobs:
-  - name: ecsfailmani7
+  - name: ecsfailmani67
     type: manifest
     steps:
       - IN: trigger-dv-man
       - IN: new-tag1
+        versionNumber: 1
       - TASK: managed
    # on_failure:
       #- ./party.sh
