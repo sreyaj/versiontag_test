@@ -16,11 +16,11 @@ resources:
       versionName: "latest"
       #tag: latest
       
- # - name: resoproecsfail
-  #  type: ecsCluster
-   # integration: ship-awsnew
-  #  pointer:
-   #   sourceName: "defaultsreya780" #name of the cluster we are deploying
-  #  version:
-   #   region: "us-west-2" 
+  - name: resoproecsfail
+    type: ecsCluster
+    integration: ship-awsnew
+    pointer:
+      sourceName: "defaultsreya780" #name of the cluster we are deploying
+    version:
+      region: "us-west-2" 
  
