@@ -8,9 +8,9 @@ resources:
       
   - name: new-tag1
     type: image
-    integration: ship4-docker-egefg
+    integration: ship4-docker
     pointer:
-      sourceName: "shiphitchcock4/hitchcock4_sample_node"
+      sourceName: "shiphitchcock4/hitchcock4_sample_nodenew"
       isPull: false
     seed:
       versionName: "latest"
