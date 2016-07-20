@@ -10,12 +10,12 @@ jobs:
       #- ./party.sh
     #  - ls
      # - pwd
-  - name : deployecs56
+  - name : deployecs57
     type: ecsDeploy
     steps:
       - IN: ecsfailmani91
       - IN: trigger-dv-man
-      #- IN: resoproecsfail
+      - IN: test-cluster
       #  versionNumber: 1
       - TASK: managed
         deployMethod: upgrade
