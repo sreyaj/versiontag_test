@@ -17,6 +17,7 @@ jobs:
       - IN: trigger-dv-man
       - IN: resoproecsfail
       #  versionNumber: 1
+      - TASK: managed
     #on_failure:
       #- ./party.sh
      # - echo 'failed'
