@@ -22,7 +22,7 @@ resources:
       isPull: false
     seed:
       versionName: "latest"
-      #tag: latest
+      tag: latest
       
   - name: test-cluster1
     type: cluster
