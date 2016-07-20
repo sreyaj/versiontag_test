@@ -4,13 +4,13 @@ jobs:
     steps:
       - IN: trigger-dv-man
       - IN: new-tag1
-        versionNumber: 1
+      #  versionNumber: 1
       - TASK: managed
    # on_failure:
       #- ./party.sh
     #  - ls
      # - pwd
-  - name : deployecs57
+  - name : deployecs58
     type: ecsDeploy
     steps:
       - IN: ecsfailmani91
@@ -18,7 +18,7 @@ jobs:
       - IN: test-cluster
       #  versionNumber: 1
       - TASK: managed
-        deployMethod: upgrade
+       # deployMethod: upgrade
     #on_failure:
       #- ./party.sh
      # - echo 'failed'
