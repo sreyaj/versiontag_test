@@ -17,10 +17,10 @@ resources:
       #tag: latest
       
   - name: test-cluster
-    type: ecsCluster
+    type: ecsDeploy
     integration: ship-awsnew
     pointer:
-      sourceName: "defaultsreya780" #name of the cluster we are deploying
+      sourceName: "defaultsreya78" #name of the cluster we are deploying
     version:
       region: "us-west-2" 
  
