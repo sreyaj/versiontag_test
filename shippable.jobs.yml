@@ -18,6 +18,7 @@ jobs:
       - IN: resoproecsfail
       #  versionNumber: 1
       - TASK: managed
+        deployMethod: upgrade
     #on_failure:
       #- ./party.sh
      # - echo 'failed'
