@@ -1,9 +1,9 @@
 jobs:
-  - name: ecsfailmani91
+  - name: ecsfailmani92
     type: manifest
     steps:
       - IN: trigger-dv-man
-      - IN: new-tag1
+      - IN: new-tag2
       #  versionNumber: 1
       - TASK: managed
    # on_failure:
@@ -13,7 +13,7 @@ jobs:
   - name : deployecs59
     type: ecsDeploy
     steps:
-      - IN: ecsfailmani91
+      - IN: ecsfailmani92
       - IN: trigger-dv-man
       - IN: test-cluster1
       #  versionNumber: 1
