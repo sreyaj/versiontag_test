@@ -1,5 +1,5 @@
 jobs:
-  - name: ecsfailmani92
+  - name: ecsmanifests1
     type: manifest
     steps:
       - IN: trigger-dv-man
@@ -13,10 +13,10 @@ jobs:
   - name : deployecs63
     type: ecsDeploy
     steps:
-      - IN: ecsfailmani92
+      - IN: ecsmanifests1
       - IN: trigger-dv-man
       - IN: test-cluster1
-        versionNumber: 5
+        #versionNumber: 5
       - TASK: managed
        # deployMethod: upgrade
     #on_failure:
