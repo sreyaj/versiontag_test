@@ -16,7 +16,7 @@ jobs:
       - IN: ecsfailmani92
       - IN: trigger-dv-man
       - IN: test-cluster1
-      #  versionNumber: 1
+        versionNumber: 2
       - TASK: managed
        # deployMethod: upgrade
     #on_failure:
