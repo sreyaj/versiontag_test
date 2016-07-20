@@ -20,7 +20,7 @@ resources:
     type: cluster
     integration: ship-awsnew
     pointer:
-      sourceName: "default1" #name of the cluster we are deploying
+      sourceName: "default1sreya" #name of the cluster we are deploying
       region: "us-west-2" 
  
  
