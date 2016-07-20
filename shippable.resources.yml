@@ -5,7 +5,15 @@ resources:
    # pointer:
     #  sourceName: shiphitchcock4/sample-script
      # branch: master
-      
+  - name: new-image
+    type: image
+    integration: ship4-docker
+    pointer:
+      sourceName: "library/nginx"
+      isPull: false
+    seed:
+      versionName: "latest" 
+  
   - name: new-tag2
     type: image
     integration: ship4-docker
