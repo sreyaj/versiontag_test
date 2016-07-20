@@ -10,7 +10,7 @@ jobs:
       #- ./party.sh
     #  - ls
      # - pwd
-  - name : deployecs60
+  - name : deployecs61
     type: ecsDeploy
     steps:
       - IN: ecsfailmani92
