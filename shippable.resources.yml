@@ -16,7 +16,7 @@ resources:
       versionName: "latest"
       #tag: latest
       
-  - name: resoproecsfail
+  - name: test-cluster
     type: ecsCluster
     integration: ship-awsnew
     pointer:
