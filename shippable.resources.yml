@@ -21,7 +21,6 @@ resources:
     integration: ship-awsnew
     pointer:
       sourceName: "defaultsreya78" #name of the cluster we are deploying
-    version:
       region: "us-west-2" 
  
  
