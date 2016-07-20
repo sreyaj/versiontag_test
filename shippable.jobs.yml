@@ -15,7 +15,7 @@ jobs:
     steps:
       - IN: ecsfailmani91
       - IN: trigger-dv-man
-      - IN: resoproecsfail
+      #- IN: resoproecsfail
       #  versionNumber: 1
       - TASK: managed
         deployMethod: upgrade
